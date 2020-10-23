@@ -1,0 +1,61 @@
+/* フォント */
+
+body{
+    font-family: sans-serif;
+}
+
+/* ヘッダー */
+
+header{
+    text-align: center;
+}
+
+/* メインコンテンツ */
+
+article{
+    text-align: center;
+}
+.center{
+    width: 430px;
+    margin: 0 auto;
+}
+form{
+    padding: 10px;
+    text-align: left;
+}
+form dt{
+    margin-left: 50px;
+}
+form dd{
+    padding: 10px;
+}
+form .submit{
+    margin-left: 210px;    
+}
+.required{
+    color: #FF0000;
+}
+/* フッター */
+
+.footer_background{
+    padding: 50px;
+    background-color: #F2F2F2;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+footer ul li{
+    font-size: 20px;
+    list-style: none;
+    margin: 0 20px;
+}
+footer ul li a{
+    color: #A4A4A4;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}

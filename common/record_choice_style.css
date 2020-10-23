@@ -64,12 +64,15 @@ article{
 }
 .red{
     background-color: #F78181;
+    border-radius: 20px;
 }
 .green{
     background-color: #81F781;
+    border-radius: 20px;
 }
 .yellow{
     background-color: #F3F781;
+    border-radius: 20px;
 }
 .about_menu{
     margin: 0 auto;

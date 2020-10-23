@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>できたことノート｜ログイン</title>
+    <meta name="description" content="できたことを記録・内省するサービス「できたことノート」についてのログインページです。">
+    <meta name="keywords" content="できたことノート,自己肯定感,できたこと記録">
+    <meta property="og:url" content="https://nnn.ed.jp/about/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="できたことノート" />
+    <meta property="og:description" content="できたことを記録・内省するサービス「できたことノート」についてのログインページです。" />
+    <meta property="og:site_name" content="できたことノート｜ログイン" />
+    <meta property="og:image" content="https://github.com/sassamori/dekitakoto/blob/html/css/images/top_image.png?raw=true" />
+    <link rel="stylesheet" href="common/normalize.css">
+    <link rel="stylesheet" href="common/login.css">
+</head>
+<body>
+    <header>
+        <a href="#"><img src="images/simple_iine.png" alt="TOPロゴ" width="120" height="120"></a>
+    </header>
+
+    <main role="main">
+        <article>
+            <h2>できることノートにログイン</h2>
+            <div class="center">
+                <form action="" method="post">
+                    <dl>
+                        <dt>メールアドレス</dt>
+                        <dd>
+                            <input type="text" name="email" size="35" maxlength="255" value=""/>
+                        </dd>
+                        <dt>パスワード</dt>
+                        <dd>
+                            <input type="password" name="password" size="35" maxlength="255" value=""/>
+                        </dd>
+                        <dt>ログイン情報の記録</dt>
+                        <dd>
+                            <input id="save" type="checkbox" name="save" value="on"><label for="save">次回からは自動的にログインする</label>
+                        </dd>
+                    </dl>
+                    <div class="submit"><input type="submit" value="ログインする" /></div>
+                </form>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="footer_background">
+            <ul>
+                <li><a href="#">TOP</a></li>
+                <li><a href="#">できたことノートについて</a></li>
+                <li><a href="#">個人情報保護方針</a></li>
+                <li><a href="#">制作者について</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

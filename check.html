@@ -2,17 +2,17 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>できたことノート｜ログイン</title>
-    <meta name="description" content="できたことを記録・内省するサービス「できたことノート」についてのログインページです。">
+    <title>できたことノート｜アカウント情報チェック</title>
+    <meta name="description" content="できたことを記録・内省するサービス「できたことノート」についてのアカウント情報チェックページです。">
     <meta name="keywords" content="できたことノート,自己肯定感,できたこと記録">
     <meta property="og:url" content="https://nnn.ed.jp/about/" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="できたことノート" />
-    <meta property="og:description" content="できたことを記録・内省するサービス「できたことノート」についてのログインページです。" />
-    <meta property="og:site_name" content="できたことノート｜ログイン" />
+    <meta property="og:description" content="できたことを記録・内省するサービス「できたことノート」についてのアカウント情報チェックです。" />
+    <meta property="og:site_name" content="できたことノート｜アカウント情報チェック" />
     <meta property="og:image" content="https://github.com/sassamori/dekitakoto/blob/html/css/images/top_image.png?raw=true" />
     <link rel="stylesheet" href="common/normalize.css">
-    <link rel="stylesheet" href="common/login.css">
+    <link rel="stylesheet" href="common/check.css">
 </head>
 <body>
     <header>
@@ -21,24 +21,33 @@
 
     <main role="main">
         <article>
-            <h2>できたことノートにログイン</h2>
+            <h2>アカウント情報チェック</h2>
             <div class="center">
                 <form action="" method="post">
+                    <input type="hidden" name="action" value="submit" />
                     <dl>
+                        <dt>ニックネーム</dt>
+                        <dd>
+                            ささもり
+                        </dd>
                         <dt>メールアドレス</dt>
                         <dd>
-                            <input type="text" name="email" size="35" maxlength="255" value=""/>
+                            kyashan.ting@gmail.com
                         </dd>
                         <dt>パスワード</dt>
                         <dd>
-                            <input type="password" name="password" size="35" maxlength="255" value=""/>
+                            【表示されません】
                         </dd>
-                        <dt>ログイン情報の記録</dt>
+                        <dt>アイコン写真</dt>
                         <dd>
-                            <input id="save" type="checkbox" name="save" value="on"><label for="save">次回からは自動的にログインする</label>
+                            <img src="images/peace.jpg" width="150" height="100" alt="" />
+                        </dd>
+                        <dt>内省する曜日</dt>
+                        <dd>
+                            日曜
                         </dd>
                     </dl>
-                    <div class="submit"><input type="submit" value="ログインする" /></div>
+                    <div class="check"><a href="index.php?action=rewrite">&laquo;&nbsp;入力画面に戻る</a>｜<input type="submit" value="登録する" /></div>
                 </form>
             </div>
         </article>

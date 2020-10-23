@@ -1,0 +1,68 @@
+/* フォント */
+
+body{
+    font-family: sans-serif;
+}
+
+/* ヘッダー */
+
+header{
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header p{
+    font-size: 24px;
+    margin-right: 80px;
+}
+
+/* メインコンテンツ */
+
+article{
+    width: 1000px;
+    margin: 30px auto;
+}
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.date{
+    width: 100px;
+}
+.number{
+    width: 50px;
+}
+.category{
+    width: 100px;
+}
+.contents{
+    width: 750px;
+}
+
+/* フッター */
+
+.footer_background{
+    padding: 50px;
+    background-color: #F2F2F2;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+footer ul li{
+    font-size: 20px;
+    list-style: none;
+    margin: 0 20px;
+}
+footer ul li a{
+    color: #A4A4A4;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}

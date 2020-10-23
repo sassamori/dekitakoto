@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>できたことノート｜記録の登録</title>
+    <meta name="description" content="できたことを記録・内省するサービス「できたことノート」についての記録の登録ページです。">
+    <meta name="keywords" content="できたことノート,自己肯定感,できたこと記録">
+    <meta property="og:url" content="https://nnn.ed.jp/about/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="できたことノート" />
+    <meta property="og:description" content="できたことを記録・内省するサービス「できたことノート」についてのマイページです。" />
+    <meta property="og:site_name" content="できたことノート｜記録の登録" />
+    <meta property="og:image" content="https://github.com/sassamori/dekitakoto/blob/html/css/images/top_image.png?raw=true" />
+    <link rel="stylesheet" href="common/normalize.css">
+    <link rel="stylesheet" href="common/record_register.css">
+</head>
+<body>
+    <header>
+        <a href="#"><img src="images/simple_iine.png" alt="TOPロゴ" width="120" height="120"></a>
+        <p>できたことノート MyPage</p>
+        <a href="#"><img src="images/gear.png" alt="設定ボタン" width="50" height="50"></a>
+    </header>
+
+    <main role="main">
+        <article>
+            <div class="menu">
+                <h2>できたことの登録</h2>
+                <p>できたことを登録しましょう</p>
+                <p>100文字以内でお書きください</p>
+            </div>
+            <div class="parallel">
+                <div class="title">
+                    <p>2020.10.23(金)</p>
+                    <p>できたこと1つ目</p>
+                    <p>Person</p>
+                </div>
+                <div class="form">
+                    <p>できたこと（100文字以内）</p>
+                    <form action="input_do.php" method="post">
+                        <textarea name="memo" cols="50" rows="5" placeholder="できたことをお書きください"></textarea><br>
+                        <div class="release">
+                            <table>
+                                <tr>
+                                    <th>公開</th>
+                                    <td class="set">
+                                            <input type="checkbox" name="hoge1" value="1" id="hoge1" class="onoff">
+                                            <label for="hoge1"></label>
+                                    </td>
+                                </tr>
+                            </table>
+                            <button type="submit">登録する</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="blank">
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="footer_background">
+            <ul>
+                <li><a href="#">TOP</a></li>
+                <li><a href="#">できたことノートについて</a></li>
+                <li><a href="#">個人情報保護方針</a></li>
+                <li><a href="#">制作者について</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
